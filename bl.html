@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #4b79a1, #283e51);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #444;
+            border-radius: 5px;
+        }
+        main {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        section {
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 800px;
+        }
+        aside {
+            background: #eaeaea;
+            padding: 1rem;
+            margin: 2rem 0;
+            text-align: center;
+            width: 80%;
+            max-width: 800px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h2 {
+            color: #4b79a1;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to my blog. Stay tuned for interesting posts!</p>
+            <img src="https://via.placeholder.com/800x400" alt="Blog Image">
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Learn more about the author and the purpose of this blog.</p>
+            <img src="https://via.placeholder.com/800x400" alt="About Image">
+        </section>
+        <section id="blog">
+            <h2>Blog Posts</h2>
+            <!-- Blog posts will go here -->
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Get in touch with us through our contact form.</p>
+        </section>
+    </main>
+    <aside>
+        <h3>Advertisement</h3>
+        <!-- Media.net Ad Unit -->
+        <script id="mnet-base" type="text/javascript" src="https://contextual.media.net/dmedianet.js?cid=8CU1X5YZG"></script>
+        <div id="mnet-ad-unit" style="display: inline-block; width: 300px; height: 250px;"></div>
+        <script>
+            try {
+                window._mNHandle.queue.push(function () {
+                    window._mNDetails.loadTag("mnet-ad-unit", "300x250", "8CU1X5YZG");
+                });
+            } catch (error) {}
+        </script>
+    </aside>
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
